@@ -11,21 +11,22 @@
 
     nav {
         height: 8%;
-        background-color: #f1e9e9;
+        background-color: #730d0d;
         display: flex;
         align-items: center;
         justify-content: space-between;
 
         span {
-            font-size: clamp(1rem, 2vw, 2rem);
+            font-size: clamp(0.8rem, 1.5vw, 1.5rem);
             font-weight: bold;
             color: #fff;
+            margin: 0 2rem;
         }
 
         ul {
-            font-size: clamp(0.25rem, 4vw, 1.2rem);
-            font-weight: bold;
-            color: #fff;
+            font-size: clamp(0.35rem, 2vw, 1rem);
+            font-weight: semi-bold;
+            color: #f6c0c0;
             list-style-type: none;
             display: flex;
             flex-direction: row;
